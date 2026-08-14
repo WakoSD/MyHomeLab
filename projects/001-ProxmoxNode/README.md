@@ -13,7 +13,7 @@ Internet
    │
 Home Network
    │
-HP ProDesk 600 G1
+HP ProDesk 600 G2
    │
 Proxmox VE
    ├── VM 1
