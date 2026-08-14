@@ -9,7 +9,7 @@ CPU:
 Intel Core i7
 
 RAM:
-8 GB
+16GB  -> Originally was 8 GB by I installed another one to double it. 
 
 Storage:
 240GB SSD
