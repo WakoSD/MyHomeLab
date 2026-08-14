@@ -12,7 +12,7 @@ RAM:
 8 GB
 
 Storage:
----
+240GB SSD
 
 Purpose:
 Primary virtualization host running Proxmox VE.
