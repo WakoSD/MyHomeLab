@@ -22,6 +22,7 @@
   - **Device:** Select your USB drive.
   - **Boot selection:** Click **SELECT** and choose the `Proxmox VE` ISO you downloaded.
 <img width="513" height="613" alt="imagen" src="https://github.com/user-attachments/assets/7f0eee09-a10f-4bb6-9c0c-37fc31833a18" />
+
 - Click **START**.
 - If prompted about ISO mode vs DD mode, choose **ISO mode** (recommended).
 - Wait for Rufus to finish writing the image.
@@ -56,8 +57,6 @@ Inside the BIOS:
   - Lower overhead compared to software‑only virtualization  
 - Without VT‑x, Proxmox can boot, but **you cannot run proper virtual machines**, and many features will be limited or unavailable.
 
----
-
 ## 7. Boot from the Proxmox USB Installer
 
 ### 7.1 Open the Boot Menu
@@ -69,8 +68,6 @@ Inside the BIOS:
 - In the Boot Menu, change the boot priority.
 - Choose your **Proxmox VE 9.2 bootable USB** as the primary boot device.
 
----
-
 ## 8. Start the Proxmox Installer
 
 Once the system boots from the USB:
@@ -81,10 +78,13 @@ Once the system boots from the USB:
 
 It will load some information, we just need to wait there. 
 
--- ISSUE ENCOUNTERed ---
+---
+## ISSUE ENCOUNTERED ---
 Even when we enabled VTx is showing an error message.
 <img width="1594" height="670" alt="imagen" src="https://github.com/user-attachments/assets/7bce1c54-0b7a-4cd5-9d4a-5a8222828fd7" />
-Investigating...
+###Solution:
+The option Virtualization Technology (VT‑x) was not enabled correctly for some reason. It did not saved when I did it the first time. Make sure it is enabled. 
+---
 
 
 
