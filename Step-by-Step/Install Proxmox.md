@@ -78,10 +78,6 @@ Inside the BIOS:
 
 It will load some information, we just need to wait there. 
 
----
-
----
-
 ### 8.2 Accept the license (Always read it of course)
 <img width="992" height="620" alt="imagen" src="https://github.com/user-attachments/assets/93d31024-3711-45a5-b463-5d6725630e2a" />
 
