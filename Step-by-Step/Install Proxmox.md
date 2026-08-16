@@ -101,6 +101,19 @@ The option Virtualization Technology (VT‑x) was not enabled correctly for some
 ### 8.6 We have to assign a hostname. In my case pve0.local and assigned the IPs. You can use the defaults. 
 <img width="938" height="928" alt="imagen" src="https://github.com/user-attachments/assets/a428c77a-e895-4d02-8f48-72df874c3bc0" />
 
+### 8.7 You will receive a summary. Please check the info and click install. 
+<img width="987" height="608" alt="imagen" src="https://github.com/user-attachments/assets/87297393-88b9-4f27-a77c-a1a3f56eeb35" />
+
+Let it load for a bit until it asks your for your root account and password. Is ready to configure. 
+
+---
+## ISSUE ENCOUNTERED
+I cannot access the configure dashboard from my personal PC. For some reason is not loading when I look for it. 
+<img width="1148" height="561" alt="imagen" src="https://github.com/user-attachments/assets/bfe03363-e933-4543-9243-ab41ddf8137c" />
+
+## Solution:
+Investigating !!!
+---
 
 
 
