@@ -88,12 +88,16 @@ The option Virtualization Technology (VT‑x) was not enabled correctly for some
 
 ### 8.2 Accept the license (Always read it of course)
 <img width="992" height="620" alt="imagen" src="https://github.com/user-attachments/assets/93d31024-3711-45a5-b463-5d6725630e2a" />
+
 ### 8.3 Select the disk that works for you.
 <img width="988" height="512" alt="imagen" src="https://github.com/user-attachments/assets/c8dc02f2-d7f1-4668-9c0b-5d8698dd2b9b" />
+
 ### 8.4 Select the country, time zone and keyboard layout
 <img width="974" height="470" alt="imagen" src="https://github.com/user-attachments/assets/e630feb0-38a8-4f2e-b5db-e5f282cf9d78" />
+
 ### 8.5 Create a password and select an email. It needs to be a valid and working email. 
 <img width="1031" height="524" alt="imagen" src="https://github.com/user-attachments/assets/d1323bbf-9044-40d1-8714-bdf318dc14c0" />
+
 ### 8.6 We have to assign a hostname. In my case pve0.local and assigned the IPs. You can use the defaults. 
 <img width="938" height="928" alt="imagen" src="https://github.com/user-attachments/assets/a428c77a-e895-4d02-8f48-72df874c3bc0" />
 
