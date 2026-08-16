@@ -1,4 +1,4 @@
-# Proxmox VE 9.2 – Bootable USB Creation Guide
+# Proxmox VE 9.2 – Installation Guide 
 
 ## 1. Download Proxmox VE
 - Opened your browser and go to:  
@@ -79,11 +79,7 @@ Inside the BIOS:
 It will load some information, we just need to wait there. 
 
 ---
-## ISSUE ENCOUNTERED
-Even when we enabled VTx is showing an error message.
-<img width="1594" height="670" alt="imagen" src="https://github.com/user-attachments/assets/7bce1c54-0b7a-4cd5-9d4a-5a8222828fd7" />
-## Solution:
-The option Virtualization Technology (VT‑x) was not enabled correctly for some reason. It did not saved when I did it the first time. Make sure it is enabled. 
+
 ---
 
 ### 8.2 Accept the license (Always read it of course)
@@ -106,9 +102,17 @@ The option Virtualization Technology (VT‑x) was not enabled correctly for some
 
 Let it load for a bit until it asks your for your root account and password. Is ready to configure. 
 
+## 9. Access
+You need to use root and password created before. 
+
 ---
-## ISSUE ENCOUNTERED
-Unable to access the Proxmox Web GUI 
+# Troubleshooting
+## 1. Even when we enabled VTx is showing an error message.
+<img width="1594" height="670" alt="imagen" src="https://github.com/user-attachments/assets/7bce1c54-0b7a-4cd5-9d4a-5a8222828fd7" />
+## Solution:
+The option Virtualization Technology (VT‑x) was not enabled correctly for some reason. It did not saved when I did it the first time. Make sure it is enabled. 
+
+## 2. Unable to access the Proxmox Web GUI 
 <img width="1148" height="561" alt="imagen" src="https://github.com/user-attachments/assets/bfe03363-e933-4543-9243-ab41ddf8137c" />
 
 * **Root Cause 1 (Subnet Mismatch):** The Proxmox server was set to a different subnet than the management PC so unable to get to the address and wrong gateway, preventing direct communication.
@@ -129,8 +133,5 @@ Unable to access the Proxmox Web GUI
 4. Accessed GUI:
     Navigated to the new address on my browser and it worked.
    <img width="1178" height="655" alt="imagen" src="https://github.com/user-attachments/assets/24b8fb7a-0fab-4930-b744-cae9c2bc0f58" />
----
-
-
 
 
