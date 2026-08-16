@@ -100,6 +100,8 @@ Let it load for a bit until it asks your for your root account and password. Is 
 
 ## 9. Access
 You need to use root and password created before. 
+You can access via browser now. By using the IP selected before and the port. For example: 192.168.10.24:8006
+This will load the Proxmox Configuration Dashboard
 
 ---
 # Troubleshooting
