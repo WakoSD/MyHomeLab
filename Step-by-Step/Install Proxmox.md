@@ -108,11 +108,27 @@ Let it load for a bit until it asks your for your root account and password. Is 
 
 ---
 ## ISSUE ENCOUNTERED
-I cannot access the configure dashboard from my personal PC. For some reason is not loading when I look for it. 
+Unable to access the Proxmox Web GUI 
 <img width="1148" height="561" alt="imagen" src="https://github.com/user-attachments/assets/bfe03363-e933-4543-9243-ab41ddf8137c" />
 
-## Solution:
-Investigating !!!
+* **Root Cause 1 (Subnet Mismatch):** The Proxmox server was set to a different subnet than the management PC so unable to get to the address and wrong gateway, preventing direct communication.
+* **Root Cause 2 (Host File Desync):** Although the network interface (`/etc/network/interfaces`) was updated to the new IP, the local hostname file (`/etc/hosts`) still pointed to the old IP. This desync caused internal Proxmox proxy services (`pveproxy`) to fail or hang, keeping the GUI inaccessible.
+
+## Solution
+
+1. **Fixed the Network Subnet:**
+   Accessed the server's physical console (or active shell) and update `/etc/network/interfaces` to match the correct local network range and gateway:
+2. **Update the Hosts File:**
+    Edit /etc/hosts and update the node's IP address to match the new configuration.
+3. Restarted Services:
+    Applied the changes and restarted the required services to bring the web interface back online:
+   ```
+    systemctl restart networking
+    systemctl restart pveproxy
+   ```
+4. Accessed GUI:
+    Navigated to the new address on my browser and it worked.
+   <img width="1178" height="655" alt="imagen" src="https://github.com/user-attachments/assets/24b8fb7a-0fab-4930-b744-cae9c2bc0f58" />
 ---
 
 
