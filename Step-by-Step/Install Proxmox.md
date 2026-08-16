@@ -79,12 +79,13 @@ Once the system boots from the USB:
 It will load some information, we just need to wait there. 
 
 ---
-## ISSUE ENCOUNTERED ---
+## ISSUE ENCOUNTERED
 Even when we enabled VTx is showing an error message.
 <img width="1594" height="670" alt="imagen" src="https://github.com/user-attachments/assets/7bce1c54-0b7a-4cd5-9d4a-5a8222828fd7" />
-###Solution:
+## Solution:
 The option Virtualization Technology (VT‑x) was not enabled correctly for some reason. It did not saved when I did it the first time. Make sure it is enabled. 
 ---
+
 
 
 
